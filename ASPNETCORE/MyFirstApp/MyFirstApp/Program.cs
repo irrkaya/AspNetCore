@@ -1,19 +1,19 @@
+using System.IO;
+
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
 app.Run(async (HttpContext context) =>
 {
-    if (1==1)
+    context.Response.Headers["content-type"] = "text/html";
+    if (context.Request.Headers.ContainsKey("User-Agent"))
     {
-        context.Response.StatusCode = 200;
+        string userAgent = context.Request.Headers["User-Agent"];
+        await context.Response.WriteAsync($"<p>{userAgent}</p>");    
     }
-    else
-    {
-        context.Response.StatusCode = 400;
-    }
+   
     
-    await context.Response.WriteAsync("Hello");
-    await context.Response.WriteAsync("World");
+
 });
 
 app.Run();
