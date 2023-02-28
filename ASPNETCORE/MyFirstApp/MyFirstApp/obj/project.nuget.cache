@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "VPByPTIf2itHnY9Z2eprkPQA92OLzw/A4Ng4IEweYkaPCl3/tmBK/3yypT9COaPsLW9QUXuCJYbV2u1EJFL6zg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\irem_\\Desktop\\ALL FOLDERS\\Software Development\\ASPNETCORE\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\irem_\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\irem_\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\irem_\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.14\\microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\irem_\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.14\\microsoft.netcore.app.host.win-x64.6.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
